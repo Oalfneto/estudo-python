@@ -1,0 +1,5 @@
+frase= input('Digite uma frase:')
+nA= frase.count('A')
+print('O numero de vezes que aparece (A) é : {}'.format(nA))
+print('A primeira vez que (A) aparece na frase é em: {}'.format(frase.find('A')+1))
+print('A última vez que (A) aparece na frase é em: {}'.format(frase.rfind('A')+1))
